@@ -3,19 +3,17 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
     return (
-        <div id="hero" className="hero-container"data-aos="bounce-top">
+        <div id="hero" className="hero-container"data-aos="zoom-in-up">
             <Navbar />
             <div className="hero-content">
                 <div className="hero-wrapper">
-                    {/* Circular Image */}
+                    
                     <div
                         className="hero-image"
                         style={{
                             backgroundImage: "url('/images/banner_bg.PNG')",
                         }}
                     ></div>
-
-                    {/* Hero Text */}
                     <div className="hero-text">
                         <p >I'm</p>
                         <p>Shabana</p>

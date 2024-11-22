@@ -18,8 +18,8 @@ const Card: React.FC<PropsType> = ({ title, desc, img, tags }) => {
                 height={350}
                 alt={title}
             />
-            <div className="card-content"data-aos= "bounce-top">
-                <div className="card-title" data-aos="bounce-top">{title}</div>
+            <div className="card-content"data-aos= "zoom-in-up">
+                <div className="card-title" data-aos="zoom-in-up">{title}</div>
                 <p>{desc}</p>
                 <div>
                     {tags.map((tag) => (

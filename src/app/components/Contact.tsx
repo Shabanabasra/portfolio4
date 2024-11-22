@@ -4,7 +4,7 @@ import { BsTelephone } from "react-icons/bs";
 
 const Contact = () => {
     return (
-        <div id="contact" className="contact-container"data-aos="bounce-top">
+        <div id="contact" className="contact-container"data-aos="zoom-in-up">
             <div className="contact-grid">
                 {/* Left Section: Contact Info */}
                 <div>

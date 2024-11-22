@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div className="footer"data-aos="bounce-top">
+        <div className="footer">
             © Shabana | All rights reserved 2024.
         </div>
     );

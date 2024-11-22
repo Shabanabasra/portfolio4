@@ -6,7 +6,7 @@ interface PropsType {
 
 const Heading: React.FC<PropsType> = ({ title }) => {
     return (
-        <div className="heading-container" data-aos="bounce-top">
+        <div className="heading-container" data-aos="zoom-in-up">
             <p>{title}</p>
         </div>
     );
