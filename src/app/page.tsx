@@ -3,12 +3,12 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Hero from "@/app/components/Hero";
-import Projects from "@/app/components/Projects";
-import Skills from "@/app/components/Skills";
-import Contact from "@/app/components/Contact";
-import About from "@/app/components/About";
-import Footer from "@/app/components/Footer";
+import Hero from "@/components/hero";
+import Project from "@/components/project";
+import Skills from "@/components/skill";
+import Contact from "@/components/contact";
+import About from "@/components/about";
+import Footer from "@/components/footer"
 
 export default function Home() {
     useEffect(() => {
@@ -29,7 +29,7 @@ export default function Home() {
                 <Hero />
             </section>
             <section className="projects-section">
-                <Projects />
+                <Project />
             </section>
             <section className="skills-section">
                 <Skills />

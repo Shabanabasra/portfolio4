@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "@/components/Navbar";
 
 const Hero = () => {
     return (
@@ -11,11 +11,11 @@ const Hero = () => {
                     <div
                         className="hero-image"
                         style={{
-                            backgroundImage: "url('/images/banner_bg.PNG')",
+                            backgroundImage: "url('/images/banner_bg.png')",
                         }}
                     ></div>
                     <div className="hero-text">
-                        <p >I'm</p>
+                        <p >I am</p>
                         <p>Shabana</p>
                         <p>Basra</p>
                     </div>
