@@ -11,7 +11,7 @@ const Hero = () => {
                     <div
                         className="hero-image"
                         style={{
-                            backgroundImage: "url('/images/banner_bg.png')",
+                            backgroundImage: "url('/images/banner_bg.PNG')",
                         }}
                     ></div>
                     <div className="hero-text">
